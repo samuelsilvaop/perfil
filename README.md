@@ -1,75 +1,169 @@
-# Welcome to your Lovable project
+# 🚀 Samuel Moreira da Silva
 
-## Project info
+Cloud & FinOps Engineer | DevOps | SRE | Automação | Multi-Cloud Governance
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+📍 Ouro Preto – MG, Brasil
+🌎 Aberto a oportunidades remotas, híbridas e internacionais
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌐 Sobre o Projeto
 
-**Use Lovable**
+Este repositório contém o código-fonte do meu site profissional, hospedado no GitHub Pages:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🔗 **[https://samuelsilvaop.github.io/perfil/](https://samuelsilvaop.github.io/perfil/)**
 
-Changes made via Lovable will be committed automatically to this repo.
+A página foi construída para destacar:
 
-**Use your preferred IDE**
+* Experiência em Cloud e FinOps
+* Projetos de automação corporativa
+* Governança multi-cloud
+* DevOps e CI/CD
+* Engenharia com visão estratégica de negócio
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Sobre Mim
 
-Follow these steps:
+Atuo na interseção entre:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Engenharia
+* Custos
+* Automação
+* Estratégia
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Minha especialidade é transformar:
 
-# Step 3: Install the necessary dependencies.
-npm i
+* ☁️ Infraestrutura em inteligência
+* 💰 Custos em previsibilidade
+* 🔄 Processos em automações escaláveis
+* 📊 Dados em decisões executivas
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Tenho forte atuação em ambientes GCP e Azure, com foco em:
+
+* Análise de billing via BigQuery
+* Estruturação de classificação de custos
+* Dashboards executivos (Looker, Power BI, Metabase)
+* Governança de Kubernetes
+* Separação de ambientes (prod/staging)
+* Redução de desperdício em cloud
+
+---
+
+## 🛠 Stack Tecnológica
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* shadcn/ui
+
+### DevOps
+
+* GitHub Actions
+* GitHub Pages
+* CI/CD automatizado
+* Node 20 (workflow)
+
+### Cloud & Engenharia
+
+* Google Cloud Platform
+* Microsoft Azure
+* Kubernetes
+* BigQuery
+* Docker
+* Jenkins
+
+---
+
+## ⚙️ Executando Localmente
+
+Requisitos:
+
+* Node.js 20+
+
+```bash
+git clone https://github.com/samuelsilvaop/perfil.git
+cd perfil
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build de produção:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Deploy
 
-## What technologies are used for this project?
+O deploy é feito automaticamente via GitHub Actions para a branch `gh-pages`.
 
-This project is built with:
+Sempre que há push na `main`, o workflow:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Instala dependências
+2. Gera o build (`dist/`)
+3. Publica no GitHub Pages
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🎯 Estrutura do Projeto
 
-## Can I connect a custom domain to my Lovable project?
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── lib/
+ └── assets/
+```
 
-Yes, you can!
+Arquitetura organizada para:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Escalabilidade
+* Clareza
+* Manutenção simples
+* Separação de responsabilidades
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
 
-# perfil
+## 🔐 Segurança
+
+* GitHub Pages com HTTPS habilitado
+* Dependabot ativado
+* Push protection contra vazamento de secrets
+* Dependency graph monitorado
+
+---
+
+## 📌 Objetivo do Projeto
+
+Este site não é apenas um portfólio.
+
+É uma demonstração prática de:
+
+* Organização técnica
+* Boas práticas de CI/CD
+* Deploy automatizado
+* Estrutura profissional de código
+* Visão de produto aplicada à engenharia
+
+---
+
+## 📬 Contato
+
+[LinkedIn](https://www.linkedin.com/in/samuel-silva)
+[GitHub](https://github.com/samuelsilvaop)
+[Email profissional](samuelsilvaop@gmail.com)
+
+---
+
+## 🍺 Nota de Rodapé
+
+Também sou Sommelier de Cerveja certificado.
+Porque engenharia também é sobre equilíbrio, precisão e sensibilidade.
+
