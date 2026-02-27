@@ -3,9 +3,9 @@ import { Linkedin, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Mail, label: "Email", href: "mailto:contato@samuelmoreira.dev" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/samuel-silva/" },
+  { icon: Github, label: "GitHub", href: "https://github.com/samuelsilvaop/" },
+  { icon: Mail, label: "Email", href: "mailto:samuelsilvaop@gmail.com" },
 ];
 
 export const ContactSection = () => {
