@@ -42,10 +42,21 @@ export const HeroSection = () => {
             <MessageSquare size={18} />
             Falar Comigo
           </Button>
-          <Button variant="heroGhost" size="lg">
-            <Download size={18} />
-            Baixar CV
-          </Button>
+          <Button
+	  asChild
+	  variant="heroGhost"
+	  size="lg"
+	>
+	  <a
+	    href={`${import.meta.env.BASE_URL}cv-samuel-silva.pdf`}
+	    download
+	    target="_blank"
+	    rel="noopener noreferrer"
+	  >
+	    <Download size={18} />
+	    Baixar CV
+	  </a>
+	</Button>
         </div>
 
         {/* Location */}
